@@ -12,6 +12,7 @@
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   border: none;
+  outline: none;
   padding: 10px;
   background-color: var(--color-input);
 }
