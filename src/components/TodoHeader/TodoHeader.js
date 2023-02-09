@@ -2,6 +2,7 @@ import React from "react";
 
 import styles from "./TodoHeader.module.css";
 import { HiMoon, HiSun } from "react-icons/hi";
+import { BiReset } from "react-icons/bi";
 import { useDarkMode } from "../DarkMode/DarkMode";
 
 export default function TodoHeader({ filters, filter, onFilter }) {
@@ -11,6 +12,11 @@ export default function TodoHeader({ filters, filter, onFilter }) {
     console.log(event.target.value);
     onFilter(event.target.value);
   };
+
+  const handleReset = () => {
+    window.localStorage.clear();
+    window.location.reload();
+  }
 
   return (
     <header className={styles.header}>
@@ -29,6 +35,7 @@ export default function TodoHeader({ filters, filter, onFilter }) {
           </option>
         ))}
       </select>
+      <span className={styles.reset} onClick={handleReset}><BiReset /></span>
     </header>
   );
 }
