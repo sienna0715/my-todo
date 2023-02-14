@@ -12,6 +12,7 @@
 - react-icon
 - PostCSS
 - Git
+- Prettier
 
 ## 🤠 주요 기능
 - 전체 아이템 보여주기 (Read)
