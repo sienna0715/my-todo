@@ -1,5 +1,5 @@
 # My To Do Application
-https://sienna0715.github.io/my-todo/
+배포 링크 : https://sienna0715.github.io/my-todo/
 
 ## 👋 프로젝트 소개
 리액트 기능에 익숙해지기 위하여, 투두 리스트를 제작하였습니다.<br/>
